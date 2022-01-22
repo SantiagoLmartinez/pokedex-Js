@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pokemon-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+}
+
+.pokemon-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 0.2em;
+    box-shadow: 2px 2px 4px 0px  ;
+}
+.pokemon-block>p{
+    margin: 0;
+    text-transform: capitalize;
+}
+.number-pokemon{
+    font-size: 0.5em;
+}
+
+.img-container{
+    background-image: url('../img/blob.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
