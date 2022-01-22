@@ -16,6 +16,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5em;
+    height: 80vh;
+
 }
 
 .pokemon-block{
@@ -40,3 +42,13 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* @media only screen and (max-width: 600px) {
+    .app{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+  } */
